@@ -14,12 +14,15 @@ The idea is to use data provided by the user (what courses they've taken) and da
 websites (prereqs/offerings) to recommend which courses to take for the quarter.
 
 User will provide:
+
 courses taken
 number of courses wanted per quarter
 number of GEs wanted to take during the year
 
 Basic algorithm:
+
 choose courses iteratively and based on prereqs
 
 Future plans:
+
 recommend based on cape reviews

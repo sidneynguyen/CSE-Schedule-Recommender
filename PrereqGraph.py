@@ -6,11 +6,11 @@ class PrereqGraph(object):
         self.graph = dict()
 
     def insert(self, node):
-        """insert"""
-        self.graph[node.getCourseName()] = node
+        """Insert a node into the graph"""
+        self.graph[node.getcoursename()] = node
 
     def getnode(self, coursename):
-        """getNode"""
+        """Get the node given the course name"""
         return self.graph[coursename]
 
 class PrereqNode(object):
